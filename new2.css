@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-image: url('pink.jpg');
+    background-size: cover;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-left: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header-main {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-left h1 {
+    font-size: 24px;
+    color: #e7b03d;
+    margin: 0;
+}
+
+.header-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.header-right ul li {
+    display: inline;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.main-nav {
+    background-color: #ff77a9;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.main-banner {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.main-banner .banner-left {
+    flex: 1;
+}
+
+.main-banner .banner-left h2 {
+    font-size: 24px;
+    color: #ff77a9;
+    margin: 0;
+}
+
+.main-banner .banner-left p {
+    margin: 10px 0;
+}
+
+.main-banner .banner-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.main-banner .banner-right .banner-item {
+    background-color: #e7b03d;
+    color: #fff;
+    padding: 20px;
+}
+
+.style-deals {
+    background-color: #e7b03d;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.style-deals h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color:#E6E6FA;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card p.price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    color: #777;
+    margin: 0 0 15px;
+}
+
+.product-card .buy-now {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-card .buy-now:hover {
+    background: #555;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .footer-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-bottom .footer-left ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+footer .footer-bottom .footer-left ul li {
+    display: inline;
+}
+
+footer .footer-bottom .footer-left ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .footer-bottom .footer-right p {
+    margin: 0;
+}
+footer .footer-bottom .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+footer .footer-bottom .social-icons a img {
+    width: 24px;
+    height: 24px;
+}
